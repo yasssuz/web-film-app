@@ -1,4 +1,5 @@
 import { Outfit } from "@next/font/google";
+import "../utils/global/globalCss.scss";
 
 const outfit = Outfit();
 
