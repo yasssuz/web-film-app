@@ -1,0 +1,28 @@
+.title {
+  font-family: "Outfit", sans-serif;
+  color: var(--white);
+
+  &[data-variant="large"] {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  &[data-variant="medium"] {
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+
+  &[data-variant="small"] {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+
+  &[data-variant="xsmall"] {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
+  }
+}
