@@ -1,7 +1,11 @@
+import Heading from "@/components/shared/heading";
+
 export default function Home() {
   return (
     <>
-      <h1>lesgo</h1>
+      <Heading as="h2" variant="xsmall">
+        app
+      </Heading>
     </>
   );
 }
