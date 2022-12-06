@@ -1,0 +1,10 @@
+.container {
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 96px max-content;
+  gap: 36px;
+  background: var(--dark-blue);
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
